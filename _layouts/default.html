@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+              	<li><a href="/config">Configuration</a></li>
+	        		<li><a href="/data">Data input</a></li>
+              <li><a href="/group">Group changes</a></li>
+	        		<li><a href="/compute">Cumulating Values</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:hausverwaltung-poehl.de">email</a></li>
+	        		<li><a href="https://github.com/gpoehl">github.com/gpoehl</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
