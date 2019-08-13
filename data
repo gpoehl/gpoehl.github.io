@@ -8,7 +8,7 @@ This is very useful when you're using a php framework which creates objects from
 
 While reading data from your database you often need to yoin data from several tables or views. You can do that with ++phpReport** as well. But you can also just read data from the first table and read data from the next tables via the data () method. 
 
-This allows reading data from any database, or any file types like csc, excel sheet, json file and also just passing any array as data input.
+This allows reading data from any database, or any file types like csc, xml, json, excel sheets and also just passing any array as data input.
 
 A single data row can be an object or an array. You can pass your data row by row, by one or more chuncks or all at once to phpReport.
 
